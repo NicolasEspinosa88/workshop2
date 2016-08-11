@@ -1,0 +1,134 @@
+.left {
+  float: left;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.nav-bar li {
+  display: inline;
+}
+
+.title {
+  padding: 120px 0 60px 0;
+  text-align: center;
+}
+.title h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+}
+.title p {
+  font-size: 17px;
+}
+
+#banner {
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  height: 700px;
+}
+#banner .banner-welcome {
+  background: none;
+  color: #fff;
+  text-align: center;
+  padding: 300px 0 100px 0;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+#services .services-inner {
+  text-align: center;
+}
+
+#portfolio {
+  background-color: #eee;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+.portfolio-description {
+  text-align: center;
+  padding: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.portfolio-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-card {
+  width: 50%;
+  overflow: auto;
+}
+.about-description {
+  box-sizing: border-box;
+  padding: 15px;
+  width: 75%;
+}
+.about-imagen {
+  width: 25%;
+  text-align: center;
+}
+.about-img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#team {
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+.team-inner {
+  text-align: center;
+}
+
+.team-card .social-list a {
+  text-decoration: none;
+}
+.team-card .social-list li {
+  display: inline;
+}
+.team-card img {
+  border: 7px solid #fff;
+  border-radius: 100%;
+}
+
+#contact {
+  height: 800px;
+  background-color: #222;
+  background-image: url(../img/map-image.png);
+}
+
+.title-contact {
+  color: #fff;
+}
+
+.contact-form {
+  text-align: center;
+}
+.contact-form input[type="text"] {
+  margin: 15px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact-form textarea {
+  margin-top: 15px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+}
+footer li {
+  display: inline;
+}
