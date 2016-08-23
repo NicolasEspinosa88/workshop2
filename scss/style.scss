@@ -7,23 +7,35 @@
 	text-align:right;
 }
 
-
-.nav-bar{
-	li{
-		display:inline;
+header{
+	h1{
+		font-family: 'Kaushan Script', cursive;
+		font-size: 22px;
 	}
+	.nav-bar{
+		li{
+			text-transform: uppercase;
+			padding: 5px;
+			display:inline;
+		}
+	}
+
 }
 
 .title{
 	padding	: 120px 0 60px 0;
 	text-align: center;
 	h1{
+		font-family: 'Montserrat', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
 		font-size: 35px;
 	}
 	p{
+		font-family: 'Droid Serif', serif;
+		font-style: italic;
 		font-size: 17px;
+		color:#777;
 	}
 }
 
@@ -33,23 +45,52 @@
 	background-image: url(../img/header-bg.jpg);
 	background-size: cover;
 	height: 700px;
-	.banner-welcome{
-		background:none;	
-		color: #fff;
-		text-align: center;
-		padding: 300px 0 100px 0;
+	.banner{
+
+		&-welcome{
+			background:none;	
+			color: #fff;
+			text-align: center;
+			padding: 300px 0 100px 0;
+		}
+		&-title{
+			font-family: 'Droid Serif', serif;
+			font-size: 40px;
+			font-style: italic;
+		}
+		&-paragraph{
+			font-family: 'Montserrat', sans-serif; 
+			font-size: 80px;
+			font-weight: bold;
+			text-transform: uppercase;
+
+		}
 	}
+
 }
 
 .icon{
 	font-size: 50px;
 }
 
-#services{
-	.services-inner{
+
+.services{
+	&-inner{
 		text-align: center;
 	}
+	&-title{
+		font-family: 'Montserrat', sans-serif; 
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	&-paragraph{
+		font-family: 'Roboto Slab', serif;
+		text-align: center;
+		color:#777;
+	}
 }
+
 
 #portfolio{
 	background-color:#eee;
@@ -76,12 +117,17 @@
 
 
 	&-card{
+		margin-bottom: 50px;
 		width: 50%;
 		overflow: auto;
 	}
 
 	&-right{
+		margin-left: calc(50% - 81.5px);
+	}
 
+	&-left{
+	    margin-left: 81.5px;
 	}
 
 	&-description{
@@ -97,7 +143,23 @@
 		width: 100%;
 		border-radius: 100%;
 	}
+	&-circle{
+		background-color: #fed136;
+		width: 163px;
+		height: 163px;
+		border-radius: 100%;
+		p{
+		text-align:center;
+			padding:35px;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #fff;
+			font-size: 20px;
+		}
+	}
 }
+
+
 
 #team{
 	background-color: #EEEEEE;
@@ -110,6 +172,7 @@
 
 .team-card{
 	.social-list{
+		padding: 0;
 		a{
 			text-decoration: none;
 		}

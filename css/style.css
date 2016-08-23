@@ -8,7 +8,13 @@
   text-align: right;
 }
 
-.nav-bar li {
+header h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 22px;
+}
+header .nav-bar li {
+  text-transform: uppercase;
+  padding: 5px;
   display: inline;
 }
 
@@ -17,12 +23,16 @@
   text-align: center;
 }
 .title h1 {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 35px;
 }
 .title p {
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
   font-size: 17px;
+  color: #777;
 }
 
 #banner {
@@ -36,13 +46,34 @@
   text-align: center;
   padding: 300px 0 100px 0;
 }
+#banner .banner-title {
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+  font-style: italic;
+}
+#banner .banner-paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .icon {
   font-size: 50px;
 }
 
-#services .services-inner {
+.services-inner {
   text-align: center;
+}
+.services-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+.services-paragraph {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: #777;
 }
 
 #portfolio {
@@ -64,8 +95,15 @@
 }
 
 .about-card {
+  margin-bottom: 50px;
   width: 50%;
   overflow: auto;
+}
+.about-right {
+  margin-left: calc(50% - 81.5px);
+}
+.about-left {
+  margin-left: 81.5px;
 }
 .about-description {
   box-sizing: border-box;
@@ -80,6 +118,20 @@
   width: 100%;
   border-radius: 100%;
 }
+.about-circle {
+  background-color: #fed136;
+  width: 163px;
+  height: 163px;
+  border-radius: 100%;
+}
+.about-circle p {
+  text-align: center;
+  padding: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
 
 #team {
   background-color: #EEEEEE;
@@ -90,6 +142,9 @@
   text-align: center;
 }
 
+.team-card .social-list {
+  padding: 0;
+}
 .team-card .social-list a {
   text-decoration: none;
 }
