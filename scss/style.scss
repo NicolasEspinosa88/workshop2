@@ -7,34 +7,67 @@
 	text-align:right;
 }
 
-header{
+.header{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (min-width: 768px) {
+	    width: 750px;
+	}
+	@media (min-width: 992px) {
+	    width: 970px;
+	}
+	@media (min-width: 1200px) {
+    	width: 1170px;
+	}
+
 	h1{
 		font-family: 'Kaushan Script', cursive;
-		font-size: 22px;
+		font-size: 27px;
+		color: #fec503;
+		padding: 30px;
+		margin: 0;
 	}
 	.nav-bar{
+		padding: 30px;
 		li{
+			font-size: 14px;
+			letter-spacing: 4px;
+			font-weight: bold;
 			text-transform: uppercase;
-			padding: 5px;
+			padding: 12px;
 			display:inline;
+			&:hover{
+				cursor: pointer;
+				color: #fed136;
+			}
 		}
+	}
+	.boton{
+		font-weight: bold;
+		text-transform: uppercase;
+		background-color: #fed136;
+		padding: 20px 40px;
 	}
 
 }
 
 .title{
-	padding	: 120px 0 60px 0;
+	padding	: 120px 0 70px 0;
 	text-align: center;
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		text-transform: uppercase;
 		font-weight: bold;
-		font-size: 35px;
+		font-size: 38px;
 	}
 	p{
 		font-family: 'Droid Serif', serif;
 		font-style: italic;
-		font-size: 17px;
+		font-size: 15px;
 		color:#777;
 	}
 }
@@ -48,7 +81,7 @@ header{
 	.banner{
 
 		&-welcome{
-			background:none;	
+			background:none;
 			color: #fff;
 			text-align: center;
 			padding: 300px 0 100px 0;
@@ -70,7 +103,10 @@ header{
 }
 
 .icon{
-	font-size: 50px;
+	font-size: 55px;
+	&-circle{
+		color:#fed136;
+	}
 }
 
 
@@ -88,6 +124,7 @@ header{
 		font-family: 'Roboto Slab', serif;
 		text-align: center;
 		color:#777;
+		margin-bottom: 100px;
 	}
 }
 
@@ -123,11 +160,11 @@ header{
 	}
 
 	&-right{
-		margin-left: calc(50% - 81.5px);
+		margin-left:  43.75%;
 	}
 
 	&-left{
-	    margin-left: 81.5px;
+	    margin-left: 6.25%;
 	}
 
 	&-description{
@@ -148,6 +185,7 @@ header{
 		width: 163px;
 		height: 163px;
 		border-radius: 100%;
+		margin-bottom: 50px;
 		p{
 		text-align:center;
 			padding:35px;
@@ -156,6 +194,11 @@ header{
 			color: #fff;
 			font-size: 20px;
 		}
+	}
+
+	&-title{
+		font-size: 18px;
+		font-weight: bold;
 	}
 }
 

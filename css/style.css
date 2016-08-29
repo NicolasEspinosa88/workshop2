@@ -8,30 +8,77 @@
   text-align: right;
 }
 
+.header{
+  clear: none;
+}
+
+.header {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .header {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    width: 1170px;
+  }
+}
+
 header h1 {
   font-family: 'Kaushan Script', cursive;
-  font-size: 22px;
+  font-size: 27px;
+  color: #fec503;
+  padding: 30px;
+  margin: 0;
+}
+
+.nav-bar{
+  padding: 30px;
 }
 header .nav-bar li {
+  letter-spacing: 1px;
+  color: #fff;
   text-transform: uppercase;
-  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
   display: inline;
+}
+header .nav-bar li:hover{
+  cursor: pointer;
+ color: #fed136;
+}
+.boton{
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fed136;
+  padding: 20px 40px;
 }
 
 .title {
-  padding: 120px 0 60px 0;
+  padding: 120px 0 70px 0;
   text-align: center;
 }
 .title h1 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 38px;
 }
 .title p {
   font-family: 'Droid Serif', serif;
   font-style: italic;
-  font-size: 17px;
+  font-size: 15px;
   color: #777;
 }
 
@@ -44,7 +91,7 @@ header .nav-bar li {
   background: none;
   color: #fff;
   text-align: center;
-  padding: 300px 0 100px 0;
+  padding: 200px 0 100px 0;
 }
 #banner .banner-title {
   font-family: 'Droid Serif', serif;
@@ -59,7 +106,12 @@ header .nav-bar li {
 }
 
 .icon {
-  font-size: 50px;
+  font-size: 55px;
+
+}
+
+.icon-circle{
+  color:#fed136;
 }
 
 .services-inner {
@@ -74,6 +126,7 @@ header .nav-bar li {
   font-family: 'Roboto Slab', serif;
   text-align: center;
   color: #777;
+  margin-bottom: 100px;
 }
 
 #portfolio {
@@ -100,15 +153,20 @@ header .nav-bar li {
   overflow: auto;
 }
 .about-right {
-  margin-left: calc(50% - 81.5px);
+  margin-left: 43.75%;
 }
 .about-left {
-  margin-left: 81.5px;
+  margin-left: 6.25%;
 }
 .about-description {
   box-sizing: border-box;
   padding: 15px;
   width: 75%;
+}
+
+.about-title{
+    font-size: 18px;
+    font-weight: bold;
 }
 .about-imagen {
   width: 25%;
@@ -123,6 +181,7 @@ header .nav-bar li {
   width: 163px;
   height: 163px;
   border-radius: 100%;
+  margin-bottom: 150px;
 }
 .about-circle p {
   text-align: center;
